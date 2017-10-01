@@ -1,0 +1,38 @@
+.square{
+    width: 80px;
+    height: 80px;
+    float:left;
+    margin-left: 5px;
+    
+    
+}
+
+.full-borders{
+    border: 1px solid black;
+}
+
+#blue-fill{
+    background-color: blue;
+}
+
+#rotate{
+    -webkit-transform: rotate(45deg);
+    margin-left: 20px;
+}
+
+#skinny-rect{
+    width:20px;
+    height:80px;
+    float:left;
+    margin-left: 20px;
+}
+
+.thick-borders{
+    border: 6px solid black;
+}
+#wide-rect{
+    width:80px;
+    height:20px;
+    float: left;
+    margin-left: 10px;
+}
