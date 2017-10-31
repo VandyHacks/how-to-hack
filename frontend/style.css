@@ -13,22 +13,15 @@ body{
 
 
 #sidebar{
-    background-color: lightgray;
-    width: 25%;
     
+    width: 25%;
+    border-right: 1px solid black;
 }
 
 #picture{
-    background-color: grey;
+    
     width: 75%;
     margin-left: 25%;
     text-align: center;
-}
-
-
-
-
-#green{
-    color: forestgreen;
 }
 

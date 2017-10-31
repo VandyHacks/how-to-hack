@@ -10,7 +10,7 @@
 
     <!-- These are your CSS files -->
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="boxes.css" type="text/css">
+   
 </head>
 
 <body>
@@ -18,38 +18,41 @@
 
         <!-- Begin left half of website !-->
         <div class="content" id="sidebar">
-            <h3>Welcome to the Mars Picture Texting System!</h1>
+            
                 <br>
                 <p>Get a picture taken by a Mars Rover on this date</p>
                 <input id="date" placeholder="YYYY-MM-DD" id="date">
                 <select id="camera">
                     <option value="" disabled selected>Camera</option>                        
                     <option value='fhaz'>fhaz</option>
-                    <option value='rhaz'>rhaz</option>
-                    <option value='navcam'>navcam</option>
+                    <!-- need more options-->
                   
                 </select>
-                <button onclick="getNasaPhoto()">Get Pic</button>
+                <button>Get Pic</button>
 
+                <br>
+                <br>
 
-                <p>Text that picture to a friend!</p>
+                
                 <input placeholder="What number?" id="phone">
                 <input placeholder="Text content" id="text-content">
-                <button id="send-text" disabled onclick="textNasaPhoto()">Send it!</button>
+                <button id="send-text" disabled></button>
         </div>
+        <!-- End left half -->
 
         <!-- Begin right half of website !-->
         <div class="content" id="picture">
 
-            <img id="mars">
+            <img src="https://cdn-az.allevents.in/banners/8d0d2e8fae8ea4a9778e435ddc69ccf2" id="mars">
         </div>
-
+        <!-- End right half !-->
 
 
     </div>
     <!-- Careful! Don't edit after this point unless you absolutely need to! !-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="mars.js"></script>
+    <script src="fun.js"></script>
 </body>
 
 </html>
